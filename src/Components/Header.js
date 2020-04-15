@@ -14,7 +14,7 @@ export class Header extends Component {
 
   render() {
     return (
-      <body>
+      <header>
         <div>
           <h1 className="title">Start Bootstrap</h1>
           <div classname="dropdown-button" onClick={this.handleToggle}>
@@ -42,7 +42,7 @@ export class Header extends Component {
           <h3 className="meet">IT'S NICE TO MEET YOU</h3>
           <button className="more">TELL ME MORE</button>
         </div>
-      </body>
+      </header>
     );
   }
 }
