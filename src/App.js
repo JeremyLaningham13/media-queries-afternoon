@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Header from './Components/Header';
 import Body from './Components/Body';
+import Services from './Components/Services';
 import './App.css';
 
 export class App extends Component {
@@ -9,6 +10,7 @@ export class App extends Component {
       <div className='App'>
         <Header />
         <Body />
+        <Services />
       </div>
     )
   }
